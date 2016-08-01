@@ -21,6 +21,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 body {
 	font-family:  'helveticaneuecyrlight', Arial;
 	width: 100%;
+	height: 100%; 
 	background:url(../img/background.jpg) no-repeat center fixed;
 	background-size: cover;
 }
@@ -43,7 +44,8 @@ a {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: flex-end;
-	padding-right: 20px;
+	margin-right: 50px;
+	color: #60b5ed;
 }
 .menu ul li a {
 	color: #60b5ed;
@@ -61,23 +63,52 @@ a {
 	margin: 2px 0;
 	background-color: #60b5ed;
 }
-.menu ul li img {
-	padding: 6px 0 0 19px ;
-}
+
 .menu ul li a span {
 	text-decoration: underline;
 }
-
-.menu ul li  span {
-	color: #60b5ed;
-	display: block;
-	font-size: 14px
+ 
+.menu ul li:nth-child(7)  {
+	background: url("../img/inventicons-29.png") center no-repeat;
+    width: 25px;
+	margin-left: 15px;
 }
+
+.menu ul li:nth-child(8) a {
+	color: #fefefe;
+}
+
+.menu ul li:nth-child(8) a:hover {
+	text-decoration: underline;
+	background-color: inherit;
+}
+
+.menu ul li:nth-child(9) {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	background: linear-gradient(to bottom, #51b1dc, #2e7ac4);
+	color: #fefefe;
+	line-height: 36px;
+	padding-left: 13px;
+
+}
+
+.menu ul li:nth-child(9) a {
+	color: #fefefe;
+	text-decoration: underline;	
+}
+
+.menu ul li:nth-child(9) a:hover {
+	text-decoration: none;
+	background-color: inherit;
+}
+
 /*------------------------------ */
 .wrapper{
 
     display: flex;
-    height: 80vh;
+    height: 100vh;
     position: relative;
     top: 0;
     left: 0;
@@ -123,8 +154,7 @@ a {
 }
 
 .facebook_login_left{
-	font-size: 22px;
-	font-weight: bold;
+	background: url("../img/fb.png") center no-repeat;
 	padding:  0 14px 0 15px ;
 	border-right:1px solid #203b70;
 }
@@ -198,19 +228,19 @@ input {
     border-bottom-color:#4c4e43;
     box-sizing: border-box;
     background-color:#0f0f0f;
-    color:#d3d3d3;
+    color:#cccccc;
 	margin-bottom:9px;
+    padding: 5px 18px;
 }
 
 input:hover{
     background-color:#1b5288;
     color:#def6ff;
 }
-
 input[type="checkbox"]{
     width:10px;
-    display:inline-block;
-    vertical-align:middle;
+	vertical-align: -1px;
+    margin-right: 8px;
 }
 
 input[type=submit] {
