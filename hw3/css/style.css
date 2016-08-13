@@ -91,27 +91,42 @@ a {
 	background: linear-gradient(to bottom, #5E5E5E, #434141);
 	text-align:left;
 }
+
+.menu{
+ 	margin: 40px 0px;
+ 	height: 40px;
+ 	background: linear-gradient(to top, #4b4a4a, #595959);
+ 	color: white;
+ 	border: solid #555555 1px;
+ }
+
 div.menu {
 	padding: 0;
 	margin:  0;
 }
-div.menu a{
-   	height: 40px;
+
+div.menu li{
 	display: inline-block;
-	padding: 0 40px 0 40px;
-    color:#ffffff;
-    font: 15px Arial, sans-serif;
-	line-height: 37px;
-	margin:  0;
+	margin-left: 35px;
+	width: 120px;
+	text-align: center;
+	box-sizing: border-box;
+	height: 40px;
 }
 
-div.menu a:hover, div.menu a.current{
-	padding: 0 39px 0 39px;
-	background: linear-gradient(to bottom, #474747, #2B2B2B);
-	border-left:1px solid #838383;
-	border-right:1px solid #838383;
-	
+ div.menu li:hover{
+ 	background-color: #444444;
+ 	border-right: solid #717070 1px;
+ 	border-left: solid #717070 1px;
 }
+
+
+.menu a{
+ 	text-decoration: none;
+ 	color: white;
+ 	font-size: 16px;
+ 	line-height: 39px;
+ }
 
 
 .middle {
@@ -174,7 +189,7 @@ div.menu a:hover, div.menu a.current{
 .content_txt {
 	text-align: left;
 	padding: 42px 22px 80px 22px;
-	color:#e1e1e1;
+	color:#7f7d7d;
 	font: 15px Arial, sans-serif;
 }	
 

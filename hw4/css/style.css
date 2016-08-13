@@ -120,7 +120,37 @@ a:hover {
 	line-height: 18px;
 }
 
-.countr_tab{
+.cont a{
+   color:#5fa5bb;
+   text-decoration:none;
+}
+
+.cont h4{
+	font: bold 13px  Arial, sans-serif;
+}
+
+.country {
+    position: absolute;
+	left: 680px;
+    top:100px;
+}
+
+figure {
+    text-align: center;
+    font-size: 9px;
+	margin-left: 5px;
+    color: rgb( 18, 138, 167 );
+	
+}
+.country a {
+    display: inline-block;
+    text-decoration: none;
+}
+figcaption {
+    text-decoration: underline;
+}
+
+/* .countr_tab{
     position: absolute;
 	left: 630px;
     top:110px;
@@ -143,15 +173,16 @@ a:hover {
 
 .countr_tab a:hover{
    	color:#3c568f;
-}
+} */
 
 .img {
 	line-height:0;
 }
 
-div.dropdown {	
+div.dropdown {
+	display: flex;
+	justify-content:center;	
    	height: 28px;
-    padding: 0 0 0 70px; 
     border-top:1px solid #cacbcb;
     border-bottom:1px solid #000000;
 	background: #323232; 
@@ -175,7 +206,8 @@ ul.dropdown li.dropdown-top {
 }
 
 ul.dropdown li.dropdown-top a {
-    padding: 0px 10px 4px; 
+    /* padding: 0px 10px 4px;  */
+	text-align: center;
 	display: block;
 	color:#ffffff;
 	font: 15px Arial, sans-serif;
